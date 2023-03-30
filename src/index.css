@@ -8,8 +8,13 @@
   background-color: #2d283e;
   scroll-behavior: smooth;
   /* color: #520f79 */
-}
+  /* color: #6d6981 */
+} 
 
+#show {
+  /* @apply fixed z-50 h-full w-full top-14 left-0 bg-secondaryColor flex items-center; */
+  position: fixed;
+}
 
 .App {
   @apply relative font-fontPrimary text-textColor bg-secondaryColor text-sm;

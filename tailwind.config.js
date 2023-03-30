@@ -16,7 +16,8 @@ export default {
         subTextColor: "#564f6f",
         outerTextColor: "#4c495d",
         btnHoverColor: "#520f79",
-        textGradient: "#995cbd"
+        textGradient: "#995cbd",
+        linearBtnColor: "#6d6981"
       },
       backgroundImage: {
         'meng-logo': "url('./assets/Meng_logo.png')",

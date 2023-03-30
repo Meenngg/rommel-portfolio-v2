@@ -16,12 +16,12 @@ function Home() {
                 <span className='text-sm sm:w-4/5 lg:w-2/4'>You can also call me Meng (as my nickname). I am passionate in creating web application and eager to learn new things about web developement.</span>
                 <div className='flex gap-3 items-center'>
                     <div className='pr-5 border-r border-subTextColor'>
-                        <button className='btn text-textColor'>Check me</button>
+                        <a href="https://m.me/rommel.diana.cazenas"><button className='btn text-textColor'>Check me</button></a>
                     </div>
                     <div className='flex gap-7'>
-                        <span><FaFacebookF className='icon-btn' size={20}/></span>
-                        <span><FaLinkedinIn className='icon-btn' size={20}/></span>
-                        <span><FaGithub className='icon-btn' size={20}/></span>
+                        <a href="https://www.facebook.com/rommel.diana.cazenas"><span><FaFacebookF className='icon-btn' size={20}/></span></a>
+                        <a href="https://www.linkedin.com/in/rommel-caze%C3%B1as/"><span><FaLinkedinIn className='icon-btn' size={20}/></span></a>
+                        <a href="https://github.com/Meenngg"><span><FaGithub className='icon-btn' size={20}/></span></a>
                     </div>
                     
                 </div>
