@@ -2,6 +2,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import { GiHamburgerMenu } from "react-icons/gi"
 import Project from "./components/Project"
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
                 <li className="hover:text-primaryColor"><a href="#about" className="transition duration-150">About</a></li>
                 <li className="hover:text-primaryColor"><a href="#project" className="transition duration-150">Projects</a></li>
                 <li className="hover:text-primaryColor"><a href="#contact" className="transition duration-150">Contact</a></li>
-                <li><button className="btn hover:bg-opacity-95">Resume</button></li>
+                <li><button className="btn hover:bg-opacity-95"><a href="https://drive.google.com/file/d/1FjgXq5pNMTDIgdS-vmTvrbLZRAHWSdC4/view?usp=sharing">Resume</a></button></li>
               </ul>
               <span className="sm:hidden"><GiHamburgerMenu className="icon-btn" size={20}/></span>
             </div>
@@ -36,7 +37,7 @@ function App() {
             <Project />
           </section>
           <section id="contact">
-            asd
+            <Contact />
           </section>
           
         </div>
