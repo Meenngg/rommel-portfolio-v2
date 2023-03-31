@@ -35,7 +35,7 @@ export const Project = () => {
                 <div className="flex flex-col gap-4 bg-subTextColor w-80 rounded-sm py-5 px-2 shadow-xl hover:scale-105 ease-out duration-300">
                     <div className="flex justify-between text-btnHoverColor">
                     <a href="https://github.com/Meenngg/rommel-portfolio"><GoBrowser className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
-                    <a href="https://rommel-cazenas.vercel.app"><FiGithub className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
+                    <a href="https://rommel-cazenas-v1.vercel.app"><FiGithub className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
                     </div>
                     <div className=" bg-project-1 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
                     <div>
