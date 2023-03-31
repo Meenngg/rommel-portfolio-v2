@@ -21,12 +21,7 @@ function App() {
   return (
     <>
       <div className="App">
-
-
-
-
-
-
+        
       {/* FIXED NAVIGATION BAR */}
       <div className="px-3 py-3 bg-secondaryColor shadow-xl fixed top-0 z-50 border-b border-subTextColor w-full md:px-16 md:py-2">
           <div className="md:flex md:justify-between md:items-center md:py-2 md:px-16"> {/* NAVIGATION BAR START HERE */}
@@ -53,15 +48,7 @@ function App() {
               </ul>
           </div>
         </div>
-
-
-
-
-
-
-
-
-           
+  
         <div className="main-container">
           <section id="home">
             <Home />  
