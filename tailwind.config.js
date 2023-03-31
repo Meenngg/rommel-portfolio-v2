@@ -22,9 +22,9 @@ export default {
       backgroundImage: {
         'meng-logo': "url('./assets/Meng_logo.png')",
         'profile-pic': "url('./assets/Grad_Profile.png')",
-        'project-1': "url('./assets/project-1-preview.png')",
-        'project-2': "url('./assets/project-3-preview.png')",
-        'project-3': "url('./assets/project-2-preview.png')"
+        'project-1': "url('./assets/project-3-preview.png')",
+        'project-2': "url('./assets/project-2-preview.png')",
+        'project-3': "url('./assets/project-1-preview.png')"
 
       }
     },

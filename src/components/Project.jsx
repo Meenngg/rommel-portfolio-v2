@@ -17,7 +17,7 @@ export const Project = () => {
                         <a href="https://cat-fact-rommel.vercel.app"><GoBrowser className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
                         <a href="https://github.com/Meenngg/Cat-Fact-v2"><FiGithub className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
                     </div>
-                    <div className=" bg-project-2 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
+                    <div className=" bg-project-1 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
                     <div>
                         <div className="flex flex-col">
                             <span className="text-2xl font-bold text-btnHoverColor">Cat Factsss</span>
@@ -37,7 +37,7 @@ export const Project = () => {
                     <a href="https://github.com/Meenngg/rommel-portfolio"><GoBrowser className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
                     <a href="https://rommel-cazenas-v1.vercel.app"><FiGithub className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
                     </div>
-                    <div className=" bg-project-1 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
+                    <div className=" bg-project-2 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
                     <div>
                         <div className="flex flex-col">
                             <span className="text-2xl font-bold text-btnHoverColor">Rommel Portfolio v1</span>
