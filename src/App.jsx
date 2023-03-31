@@ -24,7 +24,7 @@ function App() {
 
       {/* FIXED NAVIGATION BAR */}
       <div className="px-3 py-3 bg-secondaryColor shadow-xl fixed top-0 z-50 border-b border-subTextColor w-full md:px-16 md:py-2">
-          <div className="md:flex md:justify-between md:items-center md:py-2 md:px-16"> {/* NAVIGATION BAR START HERE */}
+          <div className="md:flex md:justify-between items-center md:px-16"> {/* NAVIGATION BAR START HERE */}
             {/* NAVIGATION HEADER/LOGO HERE */}
             <div className="flex items-center justify-between">
               <span className="text-2xl uppercase font-bold tracking-widest cursor-pointer hover:text-primaryColor transition duration-150">
@@ -40,7 +40,7 @@ function App() {
             </div>
 
             {/* NAVIGATION LINKS HERE */}          
-              <ul className="left-0 my-0 pt-2 pb-2 md:my-0 md:pb-0 z-[1] bg-secondaryColor border-b border-subTextColor md:border-none flex flex-col md:flex-row items-center gap-3 md:gap-5 md:z-auto md:static absolute w-full md:w-auto opacity-0 md:opacity-100 top-[-500] transition-all ease-in duration-400" onClick={clickBurger}> 
+              <ul className="left-0 my-0 pt-2 md:pt-0 pb-2 md:my-0 md:pb-0 z-[1] bg-secondaryColor border-b border-subTextColor md:border-none flex flex-col md:flex-row items-center gap-3 md:gap-5 md:z-auto md:static absolute w-full md:w-auto opacity-0 md:opacity-100 top-[-500] transition-all ease-in duration-400" onClick={clickBurger}> 
                 <li className="hover:text-primaryColor"><a href="#about" className="transition duration-150">About</a></li>
                 <li className="hover:text-primaryColor"><a href="#project" className="transition duration-150">Projects</a></li>
                 <li className="hover:text-primaryColor"><a href="#contact" className="transition duration-150">Contact</a></li>
