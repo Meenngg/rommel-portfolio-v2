@@ -9,14 +9,17 @@ import { MdOutlineClose } from "react-icons/md"
 
 function App() {
   const [toggleBurger, setToggleBurger] = useState(false);
-  const nav = document.querySelector("#navlinks");
 
   const clickBurger = () => {
     setToggleBurger(!toggleBurger);
-    // console.log(toggleBurger);
-    const list = document.querySelector('ul');
-    toggleBurger === false ? (list.classList.add('top-[120]'), list.classList.add('opacity-100')) : (list.classList.remove('top-[120]'), list.classList.remove('opacity-100'))
+    console.log(toggleBurger);
+    const list = document.querySelector('#navlinks');
+    // toggleBurger === false ? (list.classList.add('hidden')) : (list.classList.remove('hidden'))
+    list.classList.contains('hidden') === false ? (list.classList.add('hidden')) : (list.classList.remove('hidden'))
   }
+  
+  // , list.classList.add('opacity-100')
+  // , list.classList.remove('opacity-100')
 
   return (
     <>
@@ -24,9 +27,9 @@ function App() {
 
       {/* FIXED NAVIGATION BAR */}
       <div className="px-3 py-3 bg-secondaryColor shadow-xl fixed top-0 z-50 border-b border-subTextColor w-full md:px-16 md:py-2">
-          <div className="md:flex md:justify-between items-center md:px-16"> {/* NAVIGATION BAR START HERE */}
+          <div className="md:flex md:justify-between"> {/* NAVIGATION BAR START HERE */}
             {/* NAVIGATION HEADER/LOGO HERE */}
-            <div className="flex items-center justify-between">
+            <div className="flex justify-between">
               <span className="text-2xl uppercase font-bold tracking-widest cursor-pointer hover:text-primaryColor transition duration-150">
                 <a href="#home">Meng.</a>
               </span>          
@@ -40,7 +43,7 @@ function App() {
             </div>
 
             {/* NAVIGATION LINKS HERE */}          
-              <ul className="left-0 my-0 pt-2 md:pt-0 pb-2 md:my-0 md:pb-0 z-[1] bg-secondaryColor border-b border-subTextColor md:border-none flex flex-col md:flex-row items-center gap-3 md:gap-5 md:z-auto md:static absolute w-full md:w-auto opacity-0 md:opacity-100 top-[-500] transition-all ease-in duration-400" onClick={clickBurger}> 
+              <ul className="hidden flex flex-col items-center gap-5 left-0 my-0 pt-2 md:pt-0 pb-2 md:my-0 md:pb-0 bg-secondaryColor md:flex md:flex-row md:items-center md:gap-3  transition-all ease-in duration-400" id="navlinks" onClick={clickBurger}> 
                 <li className="hover:text-primaryColor"><a href="#about" className="transition duration-150">About</a></li>
                 <li className="hover:text-primaryColor"><a href="#project" className="transition duration-150">Projects</a></li>
                 <li className="hover:text-primaryColor"><a href="#contact" className="transition duration-150">Contact</a></li>

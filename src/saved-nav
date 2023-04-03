@@ -84,3 +84,10 @@
               </ul>
           </div>
         {/* </div> */}
+
+
+
+
+
+
+        left-0 my-0 pt-2 md:pt-0 pb-2 md:my-0 md:pb-0 z-[1] bg-secondaryColor border-b border-subTextColor md:border-none md:flex flex-col md:flex-row items-center gap-3 md:gap-5 md:z-auto md:static absolute w-full md:w-auto  transition-all ease-in duration-400
