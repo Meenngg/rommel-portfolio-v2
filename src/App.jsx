@@ -12,7 +12,6 @@ function App() {
 
   const clickBurger = () => {
     setToggleBurger(!toggleBurger);
-    console.log(toggleBurger);
     const list = document.querySelector('#navlinks');
     // toggleBurger === false ? (list.classList.add('hidden')) : (list.classList.remove('hidden'))
     list.classList.contains('hidden') === false ? (list.classList.add('hidden')) : (list.classList.remove('hidden'))
