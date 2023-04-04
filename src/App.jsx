@@ -29,7 +29,7 @@ function App() {
       <div className="px-3 py-3 bg-secondaryColor shadow-xl fixed top-0 z-50 border-b border-subTextColor w-full md:px-16 md:py-2">
           <div className="md:flex md:justify-between"> {/* NAVIGATION BAR START HERE */}
             {/* NAVIGATION HEADER/LOGO HERE */}
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
               <span className="text-2xl uppercase font-bold tracking-widest cursor-pointer hover:text-primaryColor transition duration-150">
                 <a href="#home">Meng.</a>
               </span>          

@@ -66,7 +66,7 @@ export const Project = () => {
                     </div>
                     <div className="flex gap-2 text-xs font-light uppercase mt-5">
                         <span className="px-3 p-1 bg-outerTextColor rounded-full">React</span>
-                        <span className="px-3 p-1 bg-outerTextColor rounded-full">Styled components</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">TailwindCSS</span>
                     </div>
                 </div>              
             </div>
