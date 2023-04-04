@@ -7,7 +7,7 @@ export const Project = () => {
         <div className="py-2">
             <div className='flex flex-1 flex-col items-center my-5'>
                 <h1 className='text-xl uppercase font-semibold'>My Projects</h1>
-                <span className=' font-semibold text-subTextColor'>List of my treasured projects </span>
+                <span className=' font-semibold text-subTextColor'>List of my treasured projects</span>
                 <hr className='hr-line'/>
             </div>
 
