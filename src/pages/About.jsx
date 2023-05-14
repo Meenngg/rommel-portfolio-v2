@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ProfilePic from "../assets/Grad_Profile.png"
 import { RiProfileFill, RiCodeSSlashFill, RiBook2Fill } from "react-icons/ri"
-import { SiJavascript, SiReact, SiHtml5, SiCss3, SiTailwindcss, SiStyledcomponents, SiFirebase, SiFigma, SiGit, SiGithub  } from "react-icons/si"
+import { SiJavascript, SiReact, SiHtml5, SiCss3, SiTailwindcss, SiStyledcomponents, SiFirebase, SiMysql, SiFigma, SiGit, SiGithub  } from "react-icons/si"
 import { GiWhiteBook } from "react-icons/gi"
 import SkillTab from '../components/SkillTab';
 
@@ -59,6 +59,7 @@ function About() {
                             <SkillTab logoName={<SiTailwindcss size={20} color="#35b3eb" />} stack="Tailwind" />
                             <SkillTab logoName={<SiStyledcomponents size={20} color="#d2698b" />} stack="Styled" />
                             <SkillTab logoName={<SiFirebase size={20} color="#f2c201" />} stack="Firebase" />
+                            <SkillTab logoName={<SiMysql size={20} color="#005c83" />} stack="MySQL" />
                             <SkillTab logoName={<SiFigma size={20} color="#9a54f2" />} stack="Figma" />
                             <SkillTab logoName={<SiGit size={20} color="#f05033" />} stack="Git" />
                             <SkillTab logoName={<SiGithub size={20} color="#f2f2f2" />} stack="Github" />
