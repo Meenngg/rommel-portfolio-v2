@@ -42,7 +42,7 @@ export const Project = () => {
                         <div className="flex flex-col">
                             <span className="text-2xl font-bold text-btnHoverColor">Stock Market Viewer </span>
                             <span className="font-light px-1">Stock Market Website, Under Development</span>
-                            <span className="text-sm font-thin px-1 mt-2">Display stock market price listed. </span>
+                            <span className="text-sm font-thin px-1 mt-2">Display a financial stock market price listed. User can  add, delete and monitor the data stock of eact available financial stock in finnhub API.</span>
                         </div>
                     </div>
                     <div className="flex gap-2 text-xs font-light uppercase mt-5">
