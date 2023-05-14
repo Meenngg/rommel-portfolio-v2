@@ -25,7 +25,8 @@ export default {
         'project-1': "url('./assets/project-3-preview.png')",
         'project-2': "url('./assets/project-2-preview.png')",
         'project-3': "url('./assets/project-1-preview.png')",
-        'project-4': "url('./assets/project-4-preview.png')"
+        'project-4': "url('./assets/project-4-preview.png')",
+        'project-5': "url('./assets/project-5-preview.png')"
 
 
       }

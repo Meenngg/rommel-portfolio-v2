@@ -1,6 +1,7 @@
 import { GoBrowser } from "react-icons/go"
 import { FiGithub } from "react-icons/fi"
 import { AiFillGithub } from "react-icons/ai"
+import { FaGoogleDrive } from "react-icons/fa"
 
 export const Project = () => {
     return ( 
@@ -51,7 +52,30 @@ export const Project = () => {
                         <span className="px-3 p-1 bg-outerTextColor rounded-full">API</span>
                         <span className="px-3 p-1 bg-outerTextColor rounded-full">finnhub</span>
                     </div>
-                </div>    
+                </div>
+
+
+                <div className="flex flex-col gap-4 bg-subTextColor w-80 rounded-sm py-5 px-2 shadow-xl hover:scale-105 ease-out duration-300">
+                    <div className="flex justify-between text-btnHoverColor">
+                        <a href="https://drive.google.com/drive/folders/1Thh6pjm4U_fTgGTUMiUKqzXsQYXu3IUE?usp=sharing"><GoBrowser className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
+                        <a href="https://drive.google.com/drive/folders/1Thh6pjm4U_fTgGTUMiUKqzXsQYXu3IUE?usp=sharing"><FaGoogleDrive className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
+                    </div>
+                    <div className=" bg-project-5 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
+                    <div>
+                        <div className="flex flex-col">
+                            <span className="text-2xl font-bold text-btnHoverColor">LPVR Capstone Project</span>
+                            <span className="font-light px-1">Game Development, Unity3D, C#</span>
+                            <span className="text-sm font-thin px-1 mt-2">A capstone project that create for AJCMFI ALS students to enables virtual reality game experience about unique larong pinoy. The game allows players to play together and learn how these games work.</span>
+                        </div>
+                    </div>
+                    <div className="flex gap-2 text-xs font-light uppercase mt-5">
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">Unity3D</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">Photon</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">GoogleSDK</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">C#</span>
+                    </div>
+                </div> 
+
 
                 <div className="flex flex-col gap-4 bg-subTextColor w-80 rounded-sm py-5 px-2 shadow-xl hover:scale-105 ease-out duration-300">
                     <div className="flex justify-between text-btnHoverColor">
