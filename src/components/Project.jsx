@@ -30,6 +30,27 @@ export const Project = () => {
                         <span className="px-3 p-1 bg-outerTextColor rounded-full">CSS</span>
                         <span className="px-3 p-1 bg-outerTextColor rounded-full">API</span>
                     </div>
+                </div>
+
+                <div className="flex flex-col gap-4 bg-subTextColor w-80 rounded-sm py-5 px-2 shadow-xl hover:scale-105 ease-out duration-300">
+                    <div className="flex justify-between text-btnHoverColor">
+                        <a href="https://stock-market-viewer.vercel.app"><GoBrowser className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
+                        <a href="https://github.com/Meenngg/stock-market-viewer"><FiGithub className="hover:text-primaryColor cursor-pointer transition ease-in duration-100" size={25} /></a>
+                    </div>
+                    <div className=" bg-project-4 bg-cover h-44 rounded-sm overflow-hidden w-full"></div>
+                    <div>
+                        <div className="flex flex-col">
+                            <span className="text-2xl font-bold text-btnHoverColor">Stock Market Viewer </span>
+                            <span className="font-light px-1">Stock Market Website, Under Development</span>
+                            <span className="text-sm font-thin px-1 mt-2">Display stock market price listed. </span>
+                        </div>
+                    </div>
+                    <div className="flex gap-2 text-xs font-light uppercase mt-5">
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">React</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">tailwindCSS</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">API</span>
+                        <span className="px-3 p-1 bg-outerTextColor rounded-full">finnhub</span>
+                    </div>
                 </div>    
 
                 <div className="flex flex-col gap-4 bg-subTextColor w-80 rounded-sm py-5 px-2 shadow-xl hover:scale-105 ease-out duration-300">
